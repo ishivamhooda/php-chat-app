@@ -8,7 +8,7 @@ if(isset($_POST["name"]) && isset($_POST["phone"])){
   $phone=$_POST["phone"];
 
   $q="SELECT * FROM `users` WHERE uname='$name' && phone='$phone'";
-  
+  // yyytt
   if($rq=mysqli_query($db,$q)){
 
     if(mysqli_num_rows($rq)==1){
